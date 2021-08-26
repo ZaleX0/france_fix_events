@@ -46,6 +46,8 @@ namespace France___Fix_Events_0._1
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.portTextBox = new System.Windows.Forms.TextBox();
+            this.portLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +63,7 @@ namespace France___Fix_Events_0._1
             // loginLabel
             // 
             this.loginLabel.AutoSize = true;
-            this.loginLabel.Location = new System.Drawing.Point(12, 61);
+            this.loginLabel.Location = new System.Drawing.Point(12, 86);
             this.loginLabel.Name = "loginLabel";
             this.loginLabel.Size = new System.Drawing.Size(36, 13);
             this.loginLabel.TabIndex = 1;
@@ -70,7 +72,7 @@ namespace France___Fix_Events_0._1
             // passwordLabel
             // 
             this.passwordLabel.AutoSize = true;
-            this.passwordLabel.Location = new System.Drawing.Point(12, 88);
+            this.passwordLabel.Location = new System.Drawing.Point(12, 113);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(56, 13);
             this.passwordLabel.TabIndex = 2;
@@ -82,17 +84,18 @@ namespace France___Fix_Events_0._1
             this.hostTextBox.Name = "hostTextBox";
             this.hostTextBox.Size = new System.Drawing.Size(250, 20);
             this.hostTextBox.TabIndex = 3;
+            this.hostTextBox.Text = "localhost";
             // 
             // loginTextBox
             // 
-            this.loginTextBox.Location = new System.Drawing.Point(74, 58);
+            this.loginTextBox.Location = new System.Drawing.Point(74, 83);
             this.loginTextBox.Name = "loginTextBox";
             this.loginTextBox.Size = new System.Drawing.Size(250, 20);
             this.loginTextBox.TabIndex = 4;
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(74, 85);
+            this.passwordTextBox.Location = new System.Drawing.Point(74, 110);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
             this.passwordTextBox.Size = new System.Drawing.Size(250, 20);
@@ -102,35 +105,32 @@ namespace France___Fix_Events_0._1
             // 
             this.databaseComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.databaseComboBox.FormattingEnabled = true;
-            this.databaseComboBox.Items.AddRange(new object[] {
-            "aaa",
-            "bbb",
-            "ccc"});
-            this.databaseComboBox.Location = new System.Drawing.Point(15, 111);
+            this.databaseComboBox.Location = new System.Drawing.Point(15, 136);
             this.databaseComboBox.Name = "databaseComboBox";
             this.databaseComboBox.Size = new System.Drawing.Size(228, 21);
             this.databaseComboBox.TabIndex = 6;
             // 
             // reloadButton
             // 
-            this.reloadButton.Location = new System.Drawing.Point(249, 109);
+            this.reloadButton.Location = new System.Drawing.Point(249, 134);
             this.reloadButton.Name = "reloadButton";
             this.reloadButton.Size = new System.Drawing.Size(75, 23);
             this.reloadButton.TabIndex = 7;
             this.reloadButton.Text = "Reload";
             this.reloadButton.UseVisualStyleBackColor = true;
+            this.reloadButton.Click += new System.EventHandler(this.reloadButton_Click);
             // 
             // xmlPathTextBox
             // 
-            this.xmlPathTextBox.Location = new System.Drawing.Point(15, 138);
+            this.xmlPathTextBox.Location = new System.Drawing.Point(15, 163);
             this.xmlPathTextBox.Name = "xmlPathTextBox";
             this.xmlPathTextBox.Size = new System.Drawing.Size(228, 20);
             this.xmlPathTextBox.TabIndex = 8;
-            this.xmlPathTextBox.Text = "C:\\Data_test\\sanef";
+            this.xmlPathTextBox.Text = "Folder początkowy";
             // 
             // xmlPathButton
             // 
-            this.xmlPathButton.Location = new System.Drawing.Point(249, 136);
+            this.xmlPathButton.Location = new System.Drawing.Point(249, 161);
             this.xmlPathButton.Name = "xmlPathButton";
             this.xmlPathButton.Size = new System.Drawing.Size(75, 23);
             this.xmlPathButton.TabIndex = 9;
@@ -140,17 +140,17 @@ namespace France___Fix_Events_0._1
             // 
             // fixEventsButton
             // 
-            this.fixEventsButton.Location = new System.Drawing.Point(224, 177);
+            this.fixEventsButton.Location = new System.Drawing.Point(224, 190);
             this.fixEventsButton.Name = "fixEventsButton";
             this.fixEventsButton.Size = new System.Drawing.Size(100, 23);
             this.fixEventsButton.TabIndex = 10;
-            this.fixEventsButton.Text = "Fix events";
+            this.fixEventsButton.Text = "Napraw eventy";
             this.fixEventsButton.UseVisualStyleBackColor = true;
             this.fixEventsButton.Click += new System.EventHandler(this.fixEventsButton_Click);
             // 
             // fixEventsProgressBar
             // 
-            this.fixEventsProgressBar.Location = new System.Drawing.Point(15, 177);
+            this.fixEventsProgressBar.Location = new System.Drawing.Point(15, 189);
             this.fixEventsProgressBar.Name = "fixEventsProgressBar";
             this.fixEventsProgressBar.Size = new System.Drawing.Size(203, 23);
             this.fixEventsProgressBar.TabIndex = 11;
@@ -195,11 +195,30 @@ namespace France___Fix_Events_0._1
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             // 
+            // portTextBox
+            // 
+            this.portTextBox.Location = new System.Drawing.Point(74, 57);
+            this.portTextBox.Name = "portTextBox";
+            this.portTextBox.Size = new System.Drawing.Size(250, 20);
+            this.portTextBox.TabIndex = 13;
+            this.portTextBox.Text = "5432";
+            // 
+            // portLabel
+            // 
+            this.portLabel.AutoSize = true;
+            this.portLabel.Location = new System.Drawing.Point(12, 60);
+            this.portLabel.Name = "portLabel";
+            this.portLabel.Size = new System.Drawing.Size(29, 13);
+            this.portLabel.TabIndex = 14;
+            this.portLabel.Text = "Port:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(336, 213);
+            this.ClientSize = new System.Drawing.Size(336, 221);
+            this.Controls.Add(this.portLabel);
+            this.Controls.Add(this.portTextBox);
             this.Controls.Add(this.fixEventsProgressBar);
             this.Controls.Add(this.fixEventsButton);
             this.Controls.Add(this.xmlPathButton);
@@ -217,7 +236,7 @@ namespace France___Fix_Events_0._1
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "France - Fix Events 0.1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -245,6 +264,8 @@ namespace France___Fix_Events_0._1
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.TextBox portTextBox;
+        private System.Windows.Forms.Label portLabel;
     }
 }
 

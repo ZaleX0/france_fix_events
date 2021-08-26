@@ -8,3 +8,36 @@ C:\Users\sglowacki\source\repos\France - Fix Events 0.1\France - Fix Events 0.1\
 C:\Users\sglowacki\source\repos\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.csproj.CoreCompileInputs.cache
 C:\Users\sglowacki\source\repos\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.exe
 C:\Users\sglowacki\source\repos\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.pdb
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\France - Fix Events 0.1.exe.config
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\France - Fix Events 0.1.exe
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\France - Fix Events 0.1.pdb
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\Npgsql.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.csproj.AssemblyReference.cache
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France___Fix_Events_0._1.Properties.Resources.resources
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.csproj.GenerateResource.cache
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.csproj.CoreCompileInputs.cache
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.csproj.CopyComplete
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.exe
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France - Fix Events 0.1.pdb
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Buffers.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Memory.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Text.Json.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Threading.Channels.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.ValueTuple.dll
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\Npgsql.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Buffers.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Memory.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Text.Json.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Threading.Channels.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\bin\Debug\System.ValueTuple.xml
+C:\Users\sglowacki\git\france_fix_events\France - Fix Events 0.1\France - Fix Events 0.1\obj\Debug\France___Fix_Events_0._1.Form1.resources

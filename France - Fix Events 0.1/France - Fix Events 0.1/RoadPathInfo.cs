@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace France___Fix_Events_0._1
 {
-    class RoadSectionPathInfo
+    class RoadPathInfo
     {
         private string path;
 
-        public RoadSectionPathInfo(string path)
+        public RoadPathInfo(string path)
         {
             this.path = path;
         }
